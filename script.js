@@ -5,7 +5,6 @@ const counterMinusElem = document.querySelector(".number-down");
 const counterReset = document.querySelector(".number-reset");
 
 let count = Math.floor(Math.random() * 80);
-let reset = 0;
 // Functions
 updateDisplay();
 function updateDisplay() {
